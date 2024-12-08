@@ -44,6 +44,9 @@ source "$VENV_NAME/bin/activate"
 pip install --upgrade pip
 pip install -r requirements.txt
 
+# Remove Template README
+> README.md
+
 echo "--------------------------------------------------------"
 echo "Project successfully renamed to '$PROJECT_NAME' and reinitialized."
 echo "A virtual environment '$VENV_NAME' has been created and activated."
