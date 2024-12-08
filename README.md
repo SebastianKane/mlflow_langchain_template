@@ -25,6 +25,12 @@ This template uses the latest recommended practices from both LangChain and MLfl
 ### Getting Started
 
 1. **Clone the repository:**
-   ```bash
-   git clone <repo_url>
-   cd <repo_name>
+```bash
+ git clone https://github.com/SebastianKane/mlflow_langchain_template.git
+ ```
+
+### Run init.sh
+```bash
+cd mlflow_lanchain_template
+sh init.sh
+```
