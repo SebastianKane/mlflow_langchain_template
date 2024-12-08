@@ -13,6 +13,8 @@ venv/
 
 # MLflow artifact stores (if any local)
 mlruns/
+mlartifacts/
+
 
 # OS-specific
 .DS_Store
