@@ -51,6 +51,6 @@ if __name__ == "__main__":
         mlflow.set_tag("LangChain-Version", "0.0.320")
 
         # Optionally save the result to a file and log it as artifact
-        with open("output.txt", "w") as f:
+        with open("template_test_output.txt", "w") as f:
             f.write(result)
-        mlflow.log_artifact("output.txt")
+        mlflow.log_artifact("template_test_output.txt")

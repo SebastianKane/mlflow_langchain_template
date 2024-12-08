@@ -7,6 +7,8 @@ __pycache__/
 template/
 venv/
 .env
+# Test Files
+template_test_output.txt
 
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
