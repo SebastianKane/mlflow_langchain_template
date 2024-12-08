@@ -15,7 +15,7 @@ if [ -z "$PROJECT_NAME" ]; then
 fi
 
 # Prompt for the venv name (default: <project-name>-venv)
-read -p "Enter venv name [default: ${PROJECT_NAME}-venv]: " VENV_NAME
+read -p "Enter venv name [default: ${PROJECT_NAME}-venv]: \n (TIP: Add venv at the end for compatability with .gitignore)" VENV_NAME
 if [ -z "$VENV_NAME" ]; then
     VENV_NAME="${PROJECT_NAME}-venv"
 fi
