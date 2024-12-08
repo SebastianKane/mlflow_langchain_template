@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+
+# Virtual environment
+template/
+venv/
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# MLflow artifact stores (if any local)
+mlruns/
+
+# OS-specific
+.DS_Store
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Other unwanted files
+*.log
