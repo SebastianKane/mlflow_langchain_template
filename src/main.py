@@ -2,7 +2,7 @@ import os
 import mlflow
 import mlflow.pyfunc
 from dotenv import load_dotenv
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from langchain.prompts import ChatPromptTemplate
 
@@ -11,6 +11,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "http://127.0.0.1:5000")
 MLFLOW_EXPERIMENT_NAME = os.getenv("MLFLOW_EXPERIMENT_NAME", "LangChain_Experiment")
+print('Variables Loaded Successfully')
 
 # Set MLflow tracking URI and experiment
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)

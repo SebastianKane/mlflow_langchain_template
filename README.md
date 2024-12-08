@@ -41,7 +41,21 @@ This template uses the latest recommended practices from both LangChain and MLfl
    ```bash
    cd mlflow_lanchain_template
    ```
-2. Run init
+2. Run init:
     ```bash
     sh init.sh
     ```
+3. Set env variable:
+   - At the minimum add OPENAI_API_KEY for testing script
+4. Start venv in two terminals:
+   ```bash
+   source <venv-name>/bin/activate
+   ```
+5. Start the MLflow Tracking Server in one terminal:
+   ```bash
+   mlflow ui --host 0.0.0.0 --port 5000
+   ```
+6. Verify install by running test main in another terminal:
+   ```bash
+   python src/main.py
+   ```
