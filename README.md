@@ -30,7 +30,18 @@ This template uses the latest recommended practices from both LangChain and MLfl
  ```
 
 ### Run init.sh
-```bash
-cd mlflow_lanchain_template
-sh init.sh
-```
+### Running `init.sh`
+
+**Prerequisites:**
+- **Git**
+- **Python venv**
+
+**Instructions:**
+1. Navigate to the project directory:
+   ```bash
+   cd mlflow_lanchain_template
+   ```
+2. Run init
+    ```bash
+    sh init.sh
+    ```
