@@ -29,7 +29,7 @@ fi
 
 # Move up one directory to rename
 cd ..
-mv mlflow_langchain_template "$PROJECT_NAME"
+cp -r mlflow_langchain_template "$PROJECT_NAME"
 cd "$PROJECT_NAME"
 
 # Reinitialize Git
